@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+header {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.6rem;
+    font-family: monospace;
+    background-color: #2981c8d4;
+    padding: 25.2px 0px;
+   text-shadow:  0px 0px 2px floralwhite;
+   
+
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 25px;
+
+}
+
+.box {
+    background-color:#b2ebf221;
+    display: flex;
+
+    flex-direction: column;
+    margin: 11px auto;
+    width: 19rem;
+    height: 270px;
+
+    box-shadow: 2px 2px 12px black;
+    border-radius: 40px;
+    text-align: center;
+    backdrop-filter: blur(4px);
+
+
+}
+
+h3 {
+    font-family: system-ui;
+    padding: 10px;
+    text-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+body::before{
+    content: '';
+    background:url('bj.jpg') no-repeat center center/cover;
+    position: absolute;
+    z-index: -3;
+    height: 48pc; 
+     width : 100%;
+     opacity: 11.6;
+    
+    
+}
+.inp{
+    margin: 20px auto;
+    padding: 5px;
+    border-radius: 45px;
+    border: 2px solid white;
+    box-shadow: 0px 0px 20px darkturquoise;
+    outline: none;
+
+
+}
+.btn
+{
+    margin: 12px auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 7px grey;
+    padding: 2px;
+    border: 2px solid white;
+}
+.btn:hover{
+cursor: pointer;
+background-color: black;
+color: white;
+border-color: black;
+}
+#hr{
+    border: 1px solid #000000;
+}
+#hd{
+    animation-name: clr;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+transition: all;
+transition-timing-function: ease-in-out;
+}
+@keyframes clr {
+    0%{
+        color: rgb(208, 111, 0);
+       
+    }
+    50%{
+        color:rgb(255, 233, 192);
+       
+    }
+    100%{
+        color: rgb(208, 111, 0);
+       
+    }
+    
+}
+
+h5{
+    text-align: center;
+    color: white;
+    text-shadow: none;
+    background: #37474F;
+    padding: 13px;
+    position: relative;
+    bottom: -44px;
+}

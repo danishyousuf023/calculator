@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="phone.css"  media="screen and (max-width:365px)">
+    <title>Temperature Converter</title>
+</head>
+<script src="script.js"></script>
+<body>
+
+    <header id="hd">Temperature Converter</header>
+    <hr id="hr">
+    <section>
+        <div class="container">
+            <div class="box">
+                <h3>Convert From Degree Celsius to Degree Fahrenheit</h3>
+                <hr>
+                <input type="number" class="inp" placeholder="Enter Temperature ℃" id="celsiusInput">
+                <input type="button" class="btn" value="Convert" onclick="convertCelsiusToFahrenheit()">
+                <input type="number" class="inp" placeholder="Output" id="fahrenheitOutput" readonly>
+            </div>
+            <div class="box">
+                <h3>Convert From Degree Fahrenheit to Degree Celsius</h3>
+                <hr>
+                <input type="number" class="inp" placeholder="Enter Temperature ℉" id="fahrenheitInput">
+                <input type="button" class="btn" value="Convert" onclick="convertFahrenheitToCelsius()">
+                <input type="number" class="inp" placeholder="Output" id="celsiusOutput" readonly>
+            </div>
+        </div>
+    </section>
+   
+        <h5 id="cr"> 2023 <a href="https://github.com/Danishyousuf19" target="_blank"
+                style="text-decoration: none; color: aqua;">
+                &copy;Danish-Yousuf </a> All Rights Reserved</h5>
+        
+    
+</body>
+
+</html>
